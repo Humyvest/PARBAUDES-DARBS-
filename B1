@@ -8,3 +8,5 @@ skaits[limenis] = skaits.get(limenis, 0) + 1
 
 for limenis, sk in sorted(skaits.items(), key=lambda x: x[1], reverse=True):
 print(limenis, sk)
+
+# Skaidrojums: Skripts lasa failu, sadala rindas vārdos, lai noteiktu žurnāla līmeni, un izmanto vārdnīcu, lai saskaitītu rindas katram līmenim, sakārtojot tās no biežākā uz retāko.
