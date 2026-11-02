@@ -5,4 +5,6 @@ $apturetie = Get-Service |
 
 $apturetie | Export-Csv -Path "apturetie.csv" -NoTypeInformation -Encoding utf8  
 
-# Skaidrojums: Skripts atrod visus apturētos servisus ("Stopped") un saglabā tos CSV failā, izmantojot pareizo kodējumu un noņemot lieko datu tipa informāciju.
+#  1.Skripts atrod visus apturētos servisus (Stopped) 
+2. saglabā tos CSV failā izmantojot pareizo kodējumu 
+3.noņem lieko datu tipa informāciju
