@@ -6,4 +6,6 @@ with open("sistema.log", encoding="utf-8") as f:
             skaits = skaits + 1
 print("CRITICAL rindas:", skaits)
 
-# Skaidrojums: Skripts atver log failu, iziet cauri katrai rindai un, ja atrod vārdu "CRITICAL", pieskaita viennieku mainīgajam, beigās izvadot kopējo skaitu.
+# SKAIDROJUMS 1.Skripts atver log failu 
+2.iziet cauri katrai rindai un ja atrod vārdu (CRITICAL) pieskaita viennieku mainīgajam
+3.beigās izvada kopējo skaitu
