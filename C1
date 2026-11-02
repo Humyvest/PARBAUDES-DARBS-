@@ -1,0 +1,21 @@
+import sys
+
+
+if len(sys.argv) < 2:
+print("Kļūda: Nav norādīts servisa nosaukums!")
+print("Lietošana: python Cl_uzraksti.py ")
+sys.exit()
+
+serviss = sys.argv[1]
+error_rindas = []
+
+with open("sistema.log", encoding="utf-8") as f:
+for rinda in f:
+if serviss in rinda and "ERROR" in rinda:
+error_rindas.append(rinda.strip())
+
+
+print(f"Servisam '{serviss}' ir {len(error_rindas)} ERROR rindas.")
+print("Pirmās divas ERROR rindas:")
+for rinda in error_rindas[:2]:
+print(rinda)
