@@ -5,3 +5,5 @@ with open("sistema.log", encoding="utf-8") as f:
         if "CRITICAL" in rinda:
             skaits = skaits + 1
 print("CRITICAL rindas:", skaits)
+
+# Skaidrojums: Skripts atver log failu, iziet cauri katrai rindai un, ja atrod vārdu "CRITICAL", pieskaita viennieku mainīgajam, beigās izvadot kopējo skaitu.
