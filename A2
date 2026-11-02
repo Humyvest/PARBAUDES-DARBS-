@@ -3,4 +3,6 @@ Get-Service |
     Sort-Object Name |
     Select-Object Name, Status
 
-# Skaidrojums: Komanda iegūst visu servisu sarakstu, atlasa tikai tos, kuru statuss ir "Running", sakārto pēc nosaukuma un parāda vārdu un statusu.
+# 1.Komanda iegūst visu servisu sarakstu 
+2.atlasa tikai tos kuru statuss kuri ir ( Running ) 
+3.sakārto pēc nosaukuma un parāda vārdu un statusu
