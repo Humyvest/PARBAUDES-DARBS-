@@ -2,3 +2,5 @@ Get-Service |
     Where-Object { $._Status -eq "Running" } |
     Sort-Object Name |
     Select-Object Name, Status
+
+# Skaidrojums: Komanda iegūst visu servisu sarakstu, atlasa tikai tos, kuru statuss ir "Running", sakārto pēc nosaukuma un parāda vārdu un statusu.
