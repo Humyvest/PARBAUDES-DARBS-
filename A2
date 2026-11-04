@@ -4,5 +4,5 @@ Get-Service |
     Select-Object Name, Status
 
 # 1.Komanda iegūst visu servisu sarakstu 
-2.atlasa tikai tos kuru statuss kuri ir ( Running ) 
+2.atlasa tikai tos kuru statusus kuri ir ( Running ) 
 3.sakārto pēc nosaukuma un parāda vārdu un statusu
